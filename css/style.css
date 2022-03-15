@@ -1,0 +1,40 @@
+@media screen and (max-width: 44em)
+{
+	form label
+	{
+		display: block;
+		float: none!important;
+	}
+	form label.publication.label
+	{
+		float: right;
+	}
+	input[type=text],select
+	{
+		width: 100%!important;
+	}c
+	input[type=radio]
+	{
+		float: left;
+	}
+	label[for=com]
+	{
+		float: left!important;
+		width: auto!important;
+	}
+	br
+	{
+		display: none;
+	}
+}
+label[for=tit],label[for=rub],
+label[class=publication],label[for=com]
+{
+	float: left;
+	width: 200px;
+
+}
+textarea
+{
+	width: 100%;
+}
